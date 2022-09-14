@@ -2,13 +2,6 @@ body {
     background-color: black;
 }
 
-img {
-    padding-top: 25px;
-    padding-bottom: 25px;
-    display: block;
-    width: 40%;
-    border-radius: 50px;
-}
 
 #title {
     color: gray;
@@ -16,18 +9,36 @@ img {
     font-family: 'Times New Roman', Times, serif;
 }
 
-ul {
+.navigation {
     list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    background-color: gray;
     padding-bottom: 50px;
+    border-radius: 12px;
 }
 
-li {
-    float: left;
-    align-self: auto;
+a {
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
     display: block;
+    float: left;
     padding: 25px;
-    background-color: #3d3b3b;
+    color: white;
+    text-decoration: none;
+    border-radius: 12px;
+}
+
+a:hover {
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
+    background-color: gray;  
+    color: black;
+    border-radius: 20px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 12px;
+    object-position: 15% ;
 }
