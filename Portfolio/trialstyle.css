@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+}
+
+img {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: block;
+    width: 40%;
+    border-radius: 50px;
+}
+
+#title {
+    color: gray;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: gray;
+    padding-bottom: 50px;
+}
+
+li {
+    float: left;
+    align-self: auto;
+    display: block;
+    padding: 25px;
+    background-color: #3d3b3b;
+}
