@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/* CSS Document for CA3 */
+
+body {
+	
+	background-color: antiquewhite;
+}
+
+
+h1 {
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	color: #92C818;
+	text-align: center;
+	font-size: 6em;
+	margin: 0;
+}
+
+.intro {
+	background-color: bisque;
+	border: dashed thick greenyellow; 
+	text-align: justify;
+	font-size: 1.5em;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px;
+	padding: 10px;
+	
+}
+
+.column {
+    float: left;
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 0 8px;
+}
+
+.row {
+	width: 100%;
+}
+
+.card {
+	background-color: ghostwhite;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/* Some left and right padding inside the container */
+.container {
+    padding: 0px 10px;
+}
+
+/* IGNORE THIS THERE ARE NO ERRORS IN LINE 55-59  Clear floats */
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+} /* IGNORE THE ABOVE THERE ARE NO ERRORS IN LINE 55-59 */
+
+.title {
+    color: gray;
+}
+
+img {
+	max-width: 100%;
+	
+}
+
+footer {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size: 2em;
+	text-align: center;
+}
