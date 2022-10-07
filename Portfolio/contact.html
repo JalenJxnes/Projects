@@ -7,27 +7,31 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/65d498349f.js" crossorigin="anonymous"></script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <header>
-    <h1 class="display-1">Contact Me</h1>
+    <h1 class="display-1 text-center">Contact Me</h1>
 
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg bg-transparent">
         <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
+              
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="portfolioHome.html">Home</a>
+                <a class="nav-link" href="index.html" style="color: white;">Home</a>
               </li>
+              
               <li class="nav-item">
-                <a class="nav-link" href="portfolioHome.html">About</a>
+                <a class="nav-link active" aira-current="page" href="contact.html" style="color: white;">Contact Me</a>
               </li>
+              
               <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact Me</a>
+                <a class="nav-link" href="#about.html" style="color: white;">My Projects</a>
               </li>
             </ul>
           </div>
@@ -36,21 +40,26 @@
 </header>
 </head>
 
-<body>
+<body style="background-image: linear-gradient(#326789,#78a6c8)">
     <form>
         <label for='inputName' class="form-label mt-3 ms-3 ">Name</label>
         <input type="name" class="form-control ms-3" id="inputName">
 
         <label for="inputEmail" class="form-label mt-3 ms-3">Email</label>
         <input type="email" class="form-control ms-3" id="inputEmail" aria-describedby="emailHelp">
-        <div id="emailHelp" class="form-text ms-3">We'll never share your email with anyone else.</div>
+        
+        <div id="emailHelp" class="form-text ms-3 text-white">
+          We'll never share your email with anyone else.
+        </div>
 
         <div class="mb-3 ms-3 mt-3">
             <label for="exampleFormControlTextarea1" class="form-label">Message</label>
             <textarea class="form-control" id="formControlTextarea1" rows="3"></textarea>
           </div>
 
-        <button type="submit" class="btn btn-secondary mt-3 ms-3">Submit</button>
+          <div class="text-center">
+            <button type="submit" class="btn btn-secondary mt-3 ms-3">Submit</button>
+          </div>
     </form>
 </body>
 </html>
