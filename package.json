@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "animejs": "^3.2.1",
+    "scrollreveal": "^4.0.9"
+  }
+}
